@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1024px) {
+  section.new-tweet {
+    display: flex;
+    height: 200px;
+    width: 90vw;
+    flex-direction: column;
+    font-size: 32px;
+    font-family: 'Source Sans Pro','sans-serif';
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  div.error-box {
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+    color: red
+  }
+
+  div.error-box label {
+    font-size: 16px;
+  }
+  
+  textarea {
+    display: flex;
+    width: 90vw;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+    resize: none;
+    border: 0 none;
+    background: transparent;
+    outline: none;
+    border-bottom: 0.2em solid black;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  section.new-tweet {
+    display: flex;
+    height: 200px;
+    width: 60vw;
+    flex-direction: column;
+    font-size: 32px;
+    font-family: 'Source Sans Pro','sans-serif';
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+
+  div.error-box {
+    display: flex;
+    font-size: 32px;
+    width: 60vw;
+    flex-direction: row;
+    color: red
+  }
+
+  div.error-box label {
+    font-size: 32px;
+  }
+  
+  textarea {
+    display: flex;
+    width: 60vw;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+    resize: none;
+    border: 0 none;
+    background: transparent;
+    outline: none;
+    border-bottom: 0.2em solid black;
+  }
+}
+
+div.tweetinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.5em;
+  font-size: 24px;
+  font-family: 'Bungee','sans-serif';
+}
+
+::placeholder {
+  display: flex;
+  color: black;
+  opacity: 1;
+}
+
+button {
+    display: flex;
+    border: 0 none;
+    color: #FFFFFF;
+    background-color: #4056a1;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+
+}
+output.counter {
+    display: flex;
+    align-items: flex-start;
+}

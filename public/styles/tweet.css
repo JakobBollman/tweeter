@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1024px) {
+  article.tweet {
+    display: flex;
+    width: 90vw;
+    border: 0.2em solid black;
+    flex-direction: column;
+    margin-bottom: 2em;
+  
+  }
+
+  article.tweet div.names{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em 0 0.5em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  article.tweet {
+    display: flex;
+    width: 60vw;
+    border: 0.2em solid black;
+    flex-direction: column;
+    margin-bottom: 2em;
+    
+  }
+  
+  article.tweet div.names{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em 0 0.5em;
+  }
+}
+
+article.tweet:hover {
+  box-shadow: 10px 10px 8px #888888;
+}
+
+article.tweet header{
+  display: flex;
+  align-items: center;
+}
+
+article.tweet label.user{
+  display: flex;
+  font-family: 'Courier New','sans-serif';
+  color: black;
+  opacity: 0.7;
+}
+
+article.tweet label.username{
+  display: flex;
+  font-family: 'Source Sans Pro','sans-serif';
+  color: rgb(145, 145, 255);
+  opacity: 0.5;
+}
+
+
+article.tweet img{
+  display: flex;
+  height: 3em;
+  width: 3em;
+  margin: 0.5em;
+}
+
+article.tweet i{
+  display: flex;
+  margin: 0 0.5em 0 0.5em;
+  justify-content: center;
+  align-items: flex-start;
+  color: #4056a1;
+}
+
+article.tweet i:hover{
+  color: #AA6C39;
+}
+
+article.tweet label.tweetbody{
+  display: flex;
+  height: 5em;
+  align-items: center;
+  margin:0 1em 0.5em 1em;
+  border-bottom: 0.2em solid black;
+  padding: 1em;
+  display: inline-block;
+  word-break: break-word;
+  
+}
+
+article.tweet footer{
+  display: flex;
+  margin: 0 1em 0.5em 1em;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+article.tweet div.idiv{
+  display: flex;
+  color: #4056a1;
+  flex-direction: row;
+}

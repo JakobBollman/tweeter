@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1024px) {
+  main {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    width: 60vw;
+    height: auto;
+    margin: auto;
+    margin-top: 120px;
+  }
+}

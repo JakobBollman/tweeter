@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    top: 0;
+    height: 120px;
+    width: 100vw;
+    background-color: #b7b0b0;
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+    align-items: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    justify-content: space-between;
+    position: fixed;
+    z-index:1;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    display: flex;
+    top: 0;
+    height: 120px;
+    width: 100vw;
+    background-color: #4056a1;
+    color: #FFFFFF;
+    align-items: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    justify-content: space-between;
+    position: fixed;
+    z-index:1;
+  }
+}
+
+span.title {
+  display: flex;
+  color: #FFFFFF;
+  font-family: 'Bungee','sans-serif';
+}
+
+nav i {
+  color: red;
+}
+
+div.newtweet {
+  display: flex;
+  color: #FFFFFF;
+  flex-direction: column;
+  align-items: center;
+}

@@ -16,3 +16,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+<img width="1898" alt="Large Screen ex" src="https://user-images.githubusercontent.com/36318471/195737301-fc97300e-4613-4fac-b5d1-ba8486737512.png">
+<img width="1901" alt="XSS prevention" src="https://user-images.githubusercontent.com/36318471/195737309-4f9af62f-cadc-4380-81b0-554e27eff2f6.png">
+<img width="859" alt="Smaller Screen Ex" src="https://user-images.githubusercontent.com/36318471/195737315-af85199a-5d34-4da8-8496-c2947d5368b3.png">
